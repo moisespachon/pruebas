@@ -1,0 +1,64 @@
+body {
+    color: #4e4e4e;
+}
+
+/* Index */
+
+.logoadpro img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+.error input {
+    border-color: red;
+}
+.form-group span {
+    display: none;
+}
+.alertaroja {
+    display: block !important;
+    color: red;
+}
+.navbar-brand img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+/* Interna */
+
+.tabla {
+    overflow: hidden;
+    border-right: 5px solid #31b6e8;
+    background-color: #f8f9fa;
+    height: calc(100vh - 60px);
+  }
+  
+  .tabla button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #4e4e4e;
+  }
+  
+  .tabla button:hover {
+    background-color: #ddd;
+  }
+  
+  .tabla button.active {
+    background-color: #31b6e8;
+    color: #ffffff;
+  }
+  
+  .contenido {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    height: calc(100vh - 60px);
+  }
